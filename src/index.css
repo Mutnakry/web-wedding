@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+* {
+  font-family: "Noto Sans Khmer", sans-serif;
+  font-weight: 600;
+}
+
+
+
+* {
+  font-family: "Noto Sans Khmer", sans-serif;
+}
+
+@layer base {
+  tr:nth-child(even) {
+    @apply bg-blue-500/10  text-black/70;
+  }
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
